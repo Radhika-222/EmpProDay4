@@ -10,11 +10,11 @@ List<Employee> employees = new List<Employee>()
     new Employee(){Id=6,Name="Nitesh",Designation="Developer",Doj=new DateTime(day:22,month:12,year:2023)}
 };
 
-Console.WriteLine("Id \t Name \t Designation \t Date of joining ");
+Console.WriteLine("Id  \t Name   \t   Designation \t   Date of joining ");
 foreach (Employee emp in employees)
 {
-    Console.Write(emp.Id + "\t\t");
-    Console.Write(emp.Name + "\t\t");
+    Console.Write(emp.Id + "\t");
+    Console.Write(emp.Name + "\t");
     Console.Write(emp.Designation + "\t\t");
     Console.Write(emp.Doj.ToLongDateString());
 }
