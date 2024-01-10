@@ -13,7 +13,7 @@ List<Employee> employees = new List<Employee>()
 Console.WriteLine("Id  \t Name   \t   Designation \t   Date of joining ");
 foreach (Employee emp in employees)
 {
-    Console.Write(emp.Id + "\t");
+    Console.Write(emp.Id + "\t\n");
     Console.Write(emp.Name + "\t");
     Console.Write(emp.Designation + "\t\t");
     Console.Write(emp.Doj.ToLongDateString());
